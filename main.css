@@ -1,0 +1,146 @@
+#header {
+   font-family: Arial, sans-serif;
+   font-size: 12px;
+   margin-top:-50px;
+   margin-bottom: 40px;
+   margin-left:30px;
+   margin-right:35px;
+}
+
+#greeting {
+   color: #c2c2c2;
+   float:left;
+   
+}
+
+#navbar {
+    color:#2E5C8A;
+	float:right;
+	
+}
+
+#navbar li {
+    display: inline;
+	margin:0 20px;
+}
+
+#navbar a {
+    color:#2E5C8A;
+	text-decoration:none;
+}
+
+#navbar a:hover {
+    color: #3385d6;
+}
+
+#signin a {
+    color:#4db8ff;
+	text-decoration:none;
+}
+
+#signin a:hover {
+    color: #2E5C8A;
+}
+
+.main {
+    margin:75px auto;
+	width:940px;
+	height:590px;
+	color: #000;
+	font-family: "Baskerville Old Face", serif;
+	text-align:center;
+	position:relative;
+	top:30px;
+	
+}
+
+.main > img {
+
+margin-left:35%;
+margin-right:35%;
+width:165px;
+margin-top:30px;
+}
+
+.main h1 {
+    font-size:50px;
+	line-height:1em;
+	margin: 30px 20px 25px;
+}
+
+.main p {
+    font-size: 20px;
+	margin: 10px 10px -20px;
+}
+
+.progname {color: #006699; text-decoration:underline;}
+#bcarrow{position:absolute;top:210px;left:290px;z-index:1;}
+#hrarrow{position:absolute;top:210px;left:520px;z-index:1;}
+#cfarrow{position:absolute;top:210px;left:575px;z-index:1;}
+.hidden {display:none;}
+#bc,#hr,#cf,#mainpg {position:absolute;}
+#mainpg{top:120px;}
+#bc h1,#hr h1,#cf h1 {font-size:49px;}
+table {
+    margin: 10px auto 10px;
+	border: none;
+	border-spacing: 40px;
+	text-align:center;
+	position:relative;top:180px;
+}
+
+table td {
+    width:185px;
+	height:250px;
+	margin:0 40px;
+	border: 1px solid #e6ebf5;
+	font-family: Verdana, sans-serif;
+	font-size: 11px;
+	/*padding:8px 0;*/
+	border-radius: 5px;
+    background: #e6ebf5;   
+	background: -webkit-linear-gradient(#fff, #e6ebf5);
+	background:    -moz-linear-gradient(#fff, #e6ebf5);
+	background:     -ms-linear-gradient(#fff, #e6ebf5);
+	background:      -o-linear-gradient(#fff, #e6ebf5);
+	background:         linear-gradient(#fff, #e6ebf5);
+ }
+ 
+ .infoblock img {
+    margin: -35px auto -10px;
+ 
+ }
+.infoblock h4 {
+   color: #006699;
+   text-decoration: underline;
+   font-size:18px;
+   margin-bottom:-20px;
+}
+
+.infoblock h5 {
+   color: #cc0000;
+   font-size: 14px;
+   margin-bottom:0;
+}
+
+.infoblock p {font-size: 12px;}
+
+.super {
+    color: #c2c2c2;
+	font-size:5px;
+    text-decoration: none;
+	
+}
+
+#supbc {position:relative;left:55px;}
+#suphr {position:relative;left:45px}
+#suptr {font-size:11px;position:relative;left:52px;}
+
+ #asterisks{
+    color: #ccd6eb;
+	margin:-20px 40px 20px;
+	word-spacing:15px;
+	position:relative;top:185px;
+	
+ }
+ 
